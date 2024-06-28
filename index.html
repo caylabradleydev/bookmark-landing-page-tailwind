@@ -15,6 +15,7 @@
     <title>Bookmark Website</title>
   </head>
   <body class="overflow-x-hidden">
+    <!-- Navbar -->
     <nav class="container mx-auto relative p-6">
       <!-- Flex Container For Nav Items -->
       <div class="flex items-center justify-between space-x-20 my-6">
@@ -42,5 +43,55 @@
         </div>
       </div>
     </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Container for Image and Content -->
+      <div
+        class="container flex flex-col-reverse p-6 mx-auto lg:flex-row lg:mb-0"
+      >
+        <!-- Content -->
+        <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+          <h1
+            class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
+          >
+            A Simple Bookmark Manager
+          </h1>
+          <p
+            class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mx-0 lg:mt-0"
+          >
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+
+          <!-- Buttons Container -->
+          <div
+            class="flex items-center justify-center w-full space-x-4 lg:justify-start"
+          >
+            <a
+              href="#"
+              class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-softBlue md:text-base hover:bg-white hover:text-softBlue border-2"
+              >Get it on Chrome</a
+            >
+            <a
+              href="#"
+              class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-gray-300 md:text-base hover:bg-white hover:text-gray-600 border-2"
+              >Get it on Firefox</a
+            >
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+          <div class="bg-hero"></div>
+          <img
+            src="./assets/img/illustration-hero.svg"
+            alt=""
+            class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
